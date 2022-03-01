@@ -3,6 +3,12 @@ import PropTypes from "prop-types";
 import "./button.css";
 
 /**
+ * Uncomment to break everything
+ */
+// import { useContractKit } from "@celo-tools/use-contractkit";
+// const { kit, address, network, performActions } = useContractKit();
+
+/**
  * Primary UI component for user interaction
  */
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
